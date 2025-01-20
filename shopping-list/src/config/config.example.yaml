@@ -1,0 +1,6 @@
+models:
+  deepseek_coder:
+    model_class: LiteLLMModel
+    model_id: deepseek/deepseek-coder
+    api_key: DEEPSEEK_API_KEY
+

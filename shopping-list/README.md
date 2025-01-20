@@ -1,6 +1,6 @@
 # Shopping List App
 
-A Python-based application for managing shopping lists with API integration.
+A Python-based application for managing shopping lists with AI API integration.
 
 ## Features
 - Create and manage multiple shopping lists
@@ -13,7 +13,7 @@ A Python-based application for managing shopping lists with API integration.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/shopping-list.git
+git clone https://github.com/8ft0/smolagent-cookbook.git
 cd shopping-list
 ```
 
@@ -41,35 +41,11 @@ cp src/config/config.example.yaml src/config/config.yaml
 
 Run the application:
 ```bash
-python -m src.shopping
+python shopping.py
 ```
 
 ### Example Commands
 - Add an item: `add milk`
 - Remove an item: `remove milk`
 - List items: `list`
-- Mark item as purchased: `buy milk`
 
-## Development
-
-### Running Tests
-```bash
-pytest tests/
-```
-
-### Code Formatting
-```bash
-flake8 src/
-black src/
-```
-
-## Contributing
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Create a new Pull Request
-
-## License
-MIT
