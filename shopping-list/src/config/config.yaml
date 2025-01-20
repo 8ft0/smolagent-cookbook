@@ -1,0 +1,26 @@
+models:
+  ollama_codestral:
+    model_class: LiteLLMModel
+    model_id: ollama_chat/codestral:22b
+    api_base: http://localhost:11434
+    api_key: OLLAMA_API_KEY
+  deepseek_coder:
+    model_class: LiteLLMModel
+    model_id: deepseek/deepseek-coder
+    api_key: DEEPSEEK_API_KEY
+  hf:
+    model_class: HfApiModel
+    model_id: Qwen/Qwen2.5-Coder-32B-Instruct-GGUF
+  hf_qwen_preview:
+    model_class: HfApiModel
+    model_id: Qwen/QwQ-32B-Preview
+  lm_studio:
+    model_class: LiteLLMModel
+    model_id: lm_studio/hermes-3-llama-3.2-3b
+    api_base: http://192.168.86.31:1234/v1
+    api_key: LM_STUDIO_API_KEY
+  lm_studio_qwen:
+    model_class: LiteLLMModel
+    model_id: lm_studio/qwen2.5-7b-instruct
+    api_base: http://192.168.86.31:1234/v1
+    api_key: LM_STUDIO_API_KEY
