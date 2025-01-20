@@ -69,7 +69,7 @@ CUSTOM_PROMPT = CODE_SYSTEM_PROMPT + """
 - ALWAYS provide context for numerical values
 
 ## Data Formatting Rules
-- Currency
+- Currency and Monetary Values
     - ALWAYS include currency symbol ($)
     - Format to 2 decimal places
     - Right-align all monetary values
